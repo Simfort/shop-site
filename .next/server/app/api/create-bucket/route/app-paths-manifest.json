@@ -1,0 +1,3 @@
+{
+  "/api/create-bucket/route": "app/api/create-bucket/route.js"
+}

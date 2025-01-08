@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///home/daart/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/file%20David%60s/web/Sites/Shop/my-site/src/app/api/create/route.ts"],"sourcesContent":["import { NextApiRequest,NextApiResponse } from \"next\"\n\nexport default async function handler(req:NextApiRequest, res:NextApiResponse) {\n  switch(req.method){\n    case 'POST':\n      console.log(req.body)\n      res.status(200).send(JSON.stringify({ name: 'John Doe' }))\n\n  }\n \n}"],"names":[],"mappings":";;;AAEe,eAAe,QAAQ,GAAkB,EAAE,GAAmB;IAC3E,OAAO,IAAI,MAAM;QACf,KAAK;YACH,QAAQ,GAAG,CAAC,IAAI,IAAI;YACpB,IAAI,MAAM,CAAC,KAAK,IAAI,CAAC,KAAK,SAAS,CAAC;gBAAE,MAAM;YAAW;IAE3D;AAEF"}},
+    {"offset": {"line": 59, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/daart/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/file%20David%60s/web/Sites/Shop/my-site/src/app/account/bucket/Bucket.tsx"],"sourcesContent":["'use client'\nimport { useSearchParams } from \"next/navigation\"\nimport getProducts from \"./getProducts\"\nimport { useState } from \"react\"\nexport default function Bucket(){\n    const param=useSearchParams()\n    const [bucket,setBucket]=useState([])\n    return <section>\n        \n    </section>\n}"],"names":[],"mappings":";;;;AACA;AAEA;;;AAHA;;;AAIe,SAAS;;IACpB,MAAM,QAAM,CAAA,GAAA,qIAAA,CAAA,kBAAe,AAAD;IAC1B,MAAM,CAAC,QAAO,UAAU,GAAC,CAAA,GAAA,6JAAA,CAAA,WAAQ,AAAD,EAAE,EAAE;IACpC,qBAAO,6LAAC;;;;;AAGZ;GANwB;;QACR,qIAAA,CAAA,kBAAe;;;KADP"}},
+    {"offset": {"line": 39, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":["file:///home/daart/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/file%20David%60s/web/Sites/Shop/my-site/node_modules/next/navigation.js"],"sourcesContent":["module.exports = require('./dist/client/components/navigation')\n"],"names":[],"mappings":"AAAA,OAAO,OAAO","ignoreList":[0]}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/daart/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/file%20David%60s/web/Sites/Shop/my-site/src/app/account/bucket/getProducts.ts"],"sourcesContent":["export default async function getProducts(user:string){\n    const res=await fetch('/api/get-products',{method:'POST',body:JSON.stringify({user:user})})\n    const data=await res.json()\n    return data\n}"],"names":[],"mappings":";;;AAAe,eAAe,YAAY,IAAW;IACjD,MAAM,MAAI,MAAM,MAAM,qBAAoB;QAAC,QAAO;QAAO,MAAK,KAAK,SAAS,CAAC;YAAC,MAAK;QAAI;IAAE;IACzF,MAAM,OAAK,MAAM,IAAI,IAAI;IACzB,OAAO;AACX"}},
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 26, "column": 0}, "map": {"version":3,"sources":["file:///home/daart/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/file%20David%60s/web/Sites/Shop/my-site/src/app/account/bucket/Bucket.tsx"],"sourcesContent":["\nimport { useSearchParams } from \"next/navigation\"\nimport getProducts from \"./getProducts\"\nexport default function Bucket(){\n    const param=useSearchParams()\n    return <section>\n        {getProducts(param.get('user')!).then(res=>{\n            return <p>GEy</p>\n        })}\n    </section>\n}"],"names":[],"mappings":";;;;AACA;AACA;AADA;;;;AAEe,SAAS;IACpB,MAAM,QAAM,CAAA,GAAA,qLAAA,CAAA,kBAAe,AAAD;IAC1B,qBAAO,8OAAC;kBACH,CAAA,GAAA,8IAAA,CAAA,UAAW,AAAD,EAAE,MAAM,GAAG,CAAC,SAAU,IAAI,CAAC,CAAA;YAClC,qBAAO,8OAAC;0BAAE;;;;;;QACd;;;;;;AAER"}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file:///home/daart/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/file%20David%60s/web/Sites/Shop/my-site/src/app/account/bucket/page.tsx"],"sourcesContent":["import Bucket from \"./Bucket\";\n\nexport default function Page(){\n    return <main><Bucket/></main>\n}"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACpB,qBAAO,8OAAC;kBAAK,cAAA,8OAAC,0IAAA,CAAA,UAAM;;;;;;;;;;AACxB"}},
+    {"offset": {"line": 80, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 91, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
+    {"offset": {"line": 91, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/daart/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/file%20David%60s/web/Sites/Shop/my-site/src/app/account/bucket/FormProduct.tsx"],"sourcesContent":["'use client'\n\nexport default function FormProduct(){\n    return <form>\n        <p>Title</p>\n        <input type=\"text\" />\n        <p>Description</p>\n        <input type=\"text\" />\n        <select >\n            <option value=\"Techonology\"></option>\n            <option value=\"Beauty\"></option>\n            <option value=\"Games\"></option>\n            <option value=\"Toys\"></option>\n        </select>\n    </form>\n}"],"names":[],"mappings":";;;;AAAA;;AAEe,SAAS;IACpB,qBAAO,8OAAC;;0BACJ,8OAAC;0BAAE;;;;;;0BACH,8OAAC;gBAAM,MAAK;;;;;;0BACZ,8OAAC;0BAAE;;;;;;0BACH,8OAAC;gBAAM,MAAK;;;;;;0BACZ,8OAAC;;kCACG,8OAAC;wBAAO,OAAM;;;;;;kCACd,8OAAC;wBAAO,OAAM;;;;;;kCACd,8OAAC;wBAAO,OAAM;;;;;;kCACd,8OAAC;wBAAO,OAAM;;;;;;;;;;;;;;;;;;AAG1B"}},
+    {"offset": {"line": 87, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 93, "column": 0}, "map": {"version":3,"sources":["file:///home/daart/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/file%20David%60s/web/Sites/Shop/my-site/src/app/account/bucket/page.tsx"],"sourcesContent":["'use client'\n\nimport FormProduct from \"./FormProduct\"\n\nexport default function Page(){\n    return <main>\n        <h1>dsad</h1>\n        <section><FormProduct/></section>\n    </main>\n}"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIe,SAAS;IACpB,qBAAO,8OAAC;;0BACJ,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;0BAAQ,cAAA,8OAAC,+IAAA,CAAA,UAAW;;;;;;;;;;;;;;;;AAE7B"}},
+    {"offset": {"line": 129, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

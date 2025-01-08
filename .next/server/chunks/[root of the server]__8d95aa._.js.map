@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///home/daart/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/file%20David%60s/web/Sites/Shop/my-site/src/app/api/create-user/route.ts"],"sourcesContent":["\nimport { NextApiRequest,NextApiResponse } from \"next\"\n\nexport async function POST(req:Request) {\n  const data=await req.json()\n  return Response.json(JSON.stringify(data))\n}"],"names":[],"mappings":";;;AAGO,eAAe,KAAK,GAAW;IACpC,MAAM,OAAK,MAAM,IAAI,IAAI;IACzB,OAAO,SAAS,IAAI,CAAC,KAAK,SAAS,CAAC;AACtC"}},
+    {"offset": {"line": 54, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
