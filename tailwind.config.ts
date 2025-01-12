@@ -12,16 +12,22 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-      animation:{
-        'spin-ball':'spin 3s linear infinite'
-      },
       keyframes:{
-        spin:{
+        opening:{
           '0%':{
-            transform:'rotate(0)'
+            opacity:'0'
           },
           '100%':{
-            transform:'rotate(360deg)'
+            opacity:'1'
+          }
+        },
+        closing:{
+          '0%':{
+            opacity:'1'
+          },
+          '100%':{
+            opacity:'0',
+            display:'none'
           }
         }
       }
