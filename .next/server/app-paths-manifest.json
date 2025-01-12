@@ -5,5 +5,6 @@
   "/account/bucket/page": "app/account/bucket/page.js",
   "/api/get-products/route": "app/api/get-products/route.js",
   "/account/create-bucket/page": "app/account/create-bucket/page.js",
-  "/api/create-bucket/route": "app/api/create-bucket/route.js"
+  "/api/create-bucket/route": "app/api/create-bucket/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
