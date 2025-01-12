@@ -46,33 +46,33 @@ function User({ user }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "flex w-[100%]  items-center justify-center flex-col mt-8",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                className: "bg-purple-900 text-white w-[100%] text-center p-3 text-5xl",
-                children: user
-            }, void 0, false, {
-                fileName: "[project]/src/app/account/User.tsx",
-                lineNumber: 11,
-                columnNumber: 9
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                className: "mt-40 w-[100%] flex flex-col  mt-6",
+                className: " mt-40 w-[100%] flex flex-col  mt-6",
                 children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        className: "bg-purple-600 text-white p-5 text-center font-bold  hover:bg-purple-400 active:bg-purple-100 w-[100%]",
-                        href: `/account/bucket?user=${storage}`,
-                        children: "Your bucket"
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: "bg-violet-400 text-white w-[100%] rounded-2xl mb-10 text-center p-3 text-5xl",
+                        children: user
                     }, void 0, false, {
                         fileName: "[project]/src/app/account/User.tsx",
                         lineNumber: 13,
                         columnNumber: 13
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                        className: "bg-purple-600 text-white p-5 text-center font-bold  hover:bg-purple-400 active:bg-purple-100 w-[100%]",
+                        className: "bg-gradient-to-r from-violet-300 to-purple-500 text-white p-5 text-center font-bold  hover:opacity-70 active:opacity-40 w-[100%]",
+                        href: `/account/bucket?user=${storage}`,
+                        children: "Your bucket"
+                    }, void 0, false, {
+                        fileName: "[project]/src/app/account/User.tsx",
+                        lineNumber: 14,
+                        columnNumber: 13
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
+                        className: " bg-gradient-to-r from-violet-300 to-purple-500 text-white p-5 text-center font-bold  hover:opacity-70 active:opacity-40 w-[100%]",
                         href: `/account/create-bucket?user=${storage}`,
                         children: "Create product"
                     }, void 0, false, {
                         fileName: "[project]/src/app/account/User.tsx",
-                        lineNumber: 14,
+                        lineNumber: 15,
                         columnNumber: 13
                     }, this)
                 ]
@@ -88,12 +88,12 @@ function User({ user }) {
                     children: "Your top seils"
                 }, void 0, false, {
                     fileName: "[project]/src/app/account/User.tsx",
-                    lineNumber: 17,
+                    lineNumber: 18,
                     columnNumber: 13
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/account/User.tsx",
-                lineNumber: 16,
+                lineNumber: 17,
                 columnNumber: 9
             }, this)
         ]
@@ -164,12 +164,12 @@ function Page() {
         className: "w-1/1 flex items-center justify-center ",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$account$2f$UserRoom$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
             fileName: "[project]/src/app/account/page.tsx",
-            lineNumber: 9,
-            columnNumber: 63
+            lineNumber: 11,
+            columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/account/page.tsx",
-        lineNumber: 9,
+        lineNumber: 10,
         columnNumber: 5
     }, this);
 }

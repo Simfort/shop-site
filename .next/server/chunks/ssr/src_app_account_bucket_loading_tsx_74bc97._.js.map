@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///home/daart/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/file%20David%60s/web/Sites/Shop/my-site/src/app/account/bucket/loading.tsx"],"sourcesContent":["export default function Loading(){\n    return <section className=\"  w-[100%]   min-h-[100vh] flex justify-center items-center\">\n         <div className='z-50 relative bg-gradient-to-r from-violet-300 to-purple-500 animate-spin flex justify-center items-center h-36 w-36 bg-black rounded-full before:content-[\"\"] before:inline-block before:h-10 before:w-10 before:rounded-full before:bg-white'></div>\n    </section>\n}"],"names":[],"mappings":";;;;;AAAe,SAAS;IACpB,qBAAO,8OAAC;QAAQ,WAAU;kBACrB,cAAA,8OAAC;YAAI,WAAU;;;;;;;;;;;AAExB"}},
+    {"offset": {"line": 28, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

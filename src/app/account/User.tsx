@@ -8,10 +8,11 @@ export default function User({user}:{user:string}){
         setStorage(localStorage.getItem('user')!)
     },[])
     return <section className="flex w-[100%]  items-center justify-center flex-col mt-8" >
-        <h1 className="bg-purple-900 text-white w-[100%] text-center p-3 text-5xl">{user}</h1>
-        <section className="mt-40 w-[100%] flex flex-col  mt-6">
-            <Link className="bg-purple-600 text-white p-5 text-center font-bold  hover:bg-purple-400 active:bg-purple-100 w-[100%]" href={`/account/bucket?user=${storage}`}>Your bucket</Link>
-            <Link className="bg-purple-600 text-white p-5 text-center font-bold  hover:bg-purple-400 active:bg-purple-100 w-[100%]" href={`/account/create-bucket?user=${storage}`}>Create product</Link>
+        
+        <section className=" mt-40 w-[100%] flex flex-col  mt-6">
+            <h1 className="bg-violet-400 text-white w-[100%] rounded-2xl mb-10 text-center p-3 text-5xl">{user}</h1>
+            <Link className="bg-gradient-to-r from-violet-300 to-purple-500 text-white p-5 text-center font-bold  hover:opacity-70 active:opacity-40 w-[100%]" href={`/account/bucket?user=${storage}`}>Your bucket</Link>
+            <Link className=" bg-gradient-to-r from-violet-300 to-purple-500 text-white p-5 text-center font-bold  hover:opacity-70 active:opacity-40 w-[100%]" href={`/account/create-bucket?user=${storage}`}>Create product</Link>
         </section>
         <section className="mt-20">
             <h1 className="text-3xl">Your top seils</h1>
