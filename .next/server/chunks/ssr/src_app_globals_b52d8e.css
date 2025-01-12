@@ -703,10 +703,6 @@ img, video {
   transition-delay: 75ms;
 }
 
-.duration-100 {
-  transition-duration: .1s;
-}
-
 .ease-linear {
   transition-timing-function: linear;
 }
@@ -752,10 +748,6 @@ body {
 .before\:content-\[\"\"\]:before {
   --tw-content: "";
   content: var(--tw-content);
-}
-
-.hover\:w-\[100\%\]:hover {
-  width: 100%;
 }
 
 .hover\:bg-purple-500:hover {
